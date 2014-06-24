@@ -1,0 +1,67 @@
+<!--/*--><css><![CDATA[*/
+ 
+@namespace xforms url("http://www.w3.org/2002/xforms");
+ 
+
+.largeinput .xforms-value {width:30ex}
+
+
+ 
+/* the input values are left aligned  */
+.xforms-value {
+   text-align: left;
+    width: 10em;
+   
+}
+
+.xforms-label {
+   font-weight: bold;
+	display: block;
+
+}
+
+.xforms-group {
+		display: table-row;
+        padding: 10px;
+/*        width: 970px; */
+}
+
+.xforms-group-label 
+{ text-align:left; 
+  margin-right:4px; 
+  background-color: #e1e1e1
+} 
+
+/* each input is a row in the group table */
+.xforms-control {
+		display: inline-block;
+		vertical-align: top; 
+/*		min-width: 100px; */
+	   margin: 7px;
+} 
+
+ 
+/* each label within an input is a cell in the input row */
+.xforms-input .xforms-textarea {
+   display: block; 
+} 
+ 
+ 
+/* each value (pseudo-element) is also a cell in the input row */
+.xforms-input-value {
+   display: inline-block;
+}
+
+textarea.xforms-value{
+        width: 700px;
+		height: 70px;
+		
+}
+ 
+
+textarea.xforms-value{
+        width: 10em;
+    	height: 10ex;
+}
+
+/*]]></css><!--*/-->

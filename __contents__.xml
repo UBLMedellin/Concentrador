@@ -1,0 +1,31 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/ubl/concentrador" owner="admin" group="dba" mode="755" created="2014-05-22T20:04:13-05:00" version="1">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="get-form.xq" owner="admin" group="dba" mode="755" created="2014-06-07T14:42:07-05:00" modified="2014-06-09T21:21:49-05:00" filename="get-form.xq" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="idd-en.xml" owner="admin" group="dba" mode="644" created="2014-06-09T21:21:49-05:00" modified="2014-06-09T21:21:49-05:00" filename="idd-en.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="idd-es.xml" owner="admin" group="dba" mode="644" created="2014-06-09T21:21:50-05:00" modified="2014-06-09T21:21:50-05:00" filename="idd-es.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xforms.css" owner="daniel" group="dba" mode="644" created="2014-06-07T14:32:29-05:00" modified="2014-06-09T21:21:51-05:00" filename="xforms.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="invoice-no-idd.xml" owner="daniel" group="dba" mode="644" created="2014-05-22T21:46:41-05:00" modified="2014-06-09T21:21:50-05:00" filename="invoice-no-idd.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="idd.xml" owner="daniel" group="dba" mode="644" created="2014-06-07T14:32:29-05:00" modified="2014-06-07T14:32:29-05:00" filename="idd.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="menu_acordion.html" owner="daniel" group="dba" mode="644" created="2014-06-07T14:32:29-05:00" modified="2014-06-07T14:32:29-05:00" filename="menu_acordion.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="invoice.xml" owner="daniel" group="dba" mode="644" created="2014-06-07T14:32:52-05:00" modified="2014-06-09T21:21:51-05:00" filename="invoice.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="echo.xq" owner="admin" group="dba" mode="644" created="2014-06-07T19:45:02-05:00" modified="2014-06-09T21:21:48-05:00" filename="echo.xq" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="xsltforms" filename="xsltforms"/>
+</collection>
